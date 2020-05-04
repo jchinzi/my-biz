@@ -1,86 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- # my-biz
+Practicing HTML with an imaginary business
+-->
+
+<!Doctype HTML>
+<html>
     <head>
-        <meta charset="UTF-8">
         <title>Yogurt Yoghurt Yogurte</title>
-        <style>
-            .column {
-                float: left;
-                width: 30%;
-                padding: 5px;
-                
-            }
-
-            ul {
-                list-style-type: none;
-                padding: 20px;
-                margin: 0;
-                text-align: center;
-            }
-
-            li {
-                display:inline;
-                
-            }
-
-            #logo {
-                text-align: center;
-            }
-            h2 {
-                text-align: center;
-            } 
-            #footer {
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-                height: 2.5rem;
-            }
-
-            #page-container {
-                position: relative;
-                min-height: 100vh;
-            }
-
-            #content-wrap {
-                padding-bottom: 2.5rem;
-            }
-
-        </style>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jen Chinzi">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body>
-        <div id="page-container">
-        <div id="content-wrap">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
 
-            </nav>
+    <body>
+        <header>
+            <h1>Yogurt Yoghurt Yogurte</h1>
+            <div class="topnav">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+            </div>
         </header>
         <div id="logo">
-            <img src="Faux Logo.jpg" width="500">
+            <img src="Images/Faux Logo.jpg" width="500">
         </div>
         <p id="missionStatement">
             <h2>The best froyo this side of life.</h2>
         </p>
         <div class="row">
             <div class="column">
-                <img src="ice cream cone.jpg" alt="Ice Cream Cone" style="width:100%">
+                <img src="Images/ice cream cone.jpg" alt="Ice Cream Cone" style="width:100%">
             </div>
             <div class="column">
-                <img src="Chocolate Close Up.jpg" alt="Ice Cream Cone" style="width:100%">
+                <img src="Images/Chocolate Close Up.jpg" alt="Ice Cream Cone" style="width:100%">
             </div>
             <div class="column">
-                <img src="Cup not Cone.jpg" alt="Ice Cream Cone" style="width:100%">
+                <img src="Images/Cup not Cone.jpg" alt="Ice Cream Cone" style="width:100%">
             </div>
         </div>
         </div>
         <footer id="footer">&copy;</footer>
     </div>
     </body>
-
-    </html>
+</html>
