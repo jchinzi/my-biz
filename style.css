@@ -6,7 +6,7 @@ h1 {
 }
 
 .topnav {
-    background-color: #333;
+    background-color: rgb(107, 107, 107);
     overflow: hidden;
     text-align: center;
 
@@ -29,7 +29,7 @@ h1 {
 
 .column {
   float: left;
-  width: 33%;
+  width: 30%;
   padding: 5px;
 }
 
@@ -38,7 +38,13 @@ h2 {
   background-color: lemonchiffon;
 }
 
-#logo>img {
-  background-color: rgb(156, 190, 255);
-  border-radius: 50%;
+#logo {
+  background-color: powderblue;
+}
+
+#logo img {
+  border-radius: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
